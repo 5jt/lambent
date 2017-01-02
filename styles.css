@@ -1,0 +1,150 @@
+/*
+ *	Cascading Style Sheet for lambenttechnology.com
+ *	sjt@lambenttechnology.com : 29dec2006
+ *
+ */
+
+body {
+	background:white url(images/bg.jpg) no-repeat;
+	color:#555;
+	font-family:Arial,Helvetica,swiss,sans-serif;
+	font-size:small;
+	margin:0 0 5em 0;
+	padding:0;
+	}
+
+/* links */
+a {
+	border-bottom:1px dashed gray;
+	color:rgb(1,74,90);
+	text-decoration:none;
+	}
+a:hover {
+	color:rgb(3,135,163);
+	}
+a img {border:none}
+
+/* elements */
+abbr {
+	border-bottom:1px dotted gray;
+	font-size:85%;
+	letter-spacing:0.1em;
+	}
+h1 {
+	font-size:200%;
+	font-weight:bold;
+	margin:0;
+	}
+h2 {
+	font-size:120%;
+	font-weight:bold;
+	margin:0;
+	}
+strong {
+	color:rgb(1,74,90);
+	}
+td {
+	vertical-align:top;
+	}
+ul {
+	padding-left: 2em;
+	}
+
+/* classes */
+.epigraph {
+	font-size:85%;
+	font-style:italic;
+	margin:1em 1em 0.5em 3em;
+	padding:0;
+	}
+.serif {
+	font-family:New Times Roman,Times,roman,serif;
+	}
+.shadow {
+	border-top:none;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	border-left:none;
+	}
+.small {font-size:80%}
+
+/* ids */
+
+#logo {
+	margin:0;
+	position:absolute; left:5px; top:5px;
+	}
+#logo a {
+	border:none;
+	}
+#logo a img {
+	border:none;
+	height:24px;
+	width:200px;
+	}
+
+#main {
+	color:#444;
+	line-height:1.4em;
+	margin:0 0 0 12em;
+	padding:6em 0 0 0;
+	width:30em;
+	}
+#main p {
+	margin:0 0 0.8em 0;
+	}
+
+#nav {
+	position:absolute; top:12em; left:1em;
+	width:15em;
+	color:#777;
+	line-height:1.8em;
+	margin:0;
+	padding:0;
+	}
+#nav a {
+	color:#555;
+	border:none;
+	}
+#nav a:hover {
+	color:rgb(3,135,163);
+	}
+#nav li {
+	font-size:120%;
+	font-weight:bold;
+	list-style-type:none;
+	margin:1em;
+	padding:0;
+	}
+
+#rhs {
+	border-left:1px solid red;
+	left:44em;
+	padding:15em 0 1em 1em;
+	position:absolute;
+	top:0;
+	width:13em;
+	}
+#rhs h1 {
+	font-size:100%;
+	}
+div#rhs p, div#rhs ul {
+	font-size:85%;
+	line-height:1.6em;
+	}
+#rhs blockquote {
+	margin:1em;
+	}
+#rhs p {
+	margin:0 0 0.8em 0;
+	}
+
+
+p#tagline {
+	color:maroon;
+	font-size:120%;
+	font-style:italic;
+	margin:0.5em 0 2em 0;
+	}
+
+#W3C {display:none;position:absolute; top:40em; left:4em; width:90px;}
